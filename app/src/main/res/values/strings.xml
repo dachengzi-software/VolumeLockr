@@ -3,6 +3,7 @@
     <string name="media_title">Media</string>
     <string name="alarm_title">Alarm</string>
     <string name="notification_title">Ringtones / Notifications</string>
+    <string name="notification_description">Service is running in background</string>
     <string name="call_title">Voice calls</string>
     <string name="title">Title</string>
     <string name="lock">Lock</string>

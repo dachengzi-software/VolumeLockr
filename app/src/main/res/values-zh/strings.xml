@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">音量锁</string>
+    <string name="media_title">媒体</string>
+    <string name="alarm_title">闹钟</string>
+    <string name="notification_title">铃声 / 通知</string>
+    <string name="notification_description">服务正在后台运行</string>
+    <string name="call_title">语音通话</string>
+    <string name="title">标题</string>
+    <string name="lock">锁定</string>
+    <string name="options">设置</string>
+    <string name="about">关于</string>
+    <string name="aboutLibraries_description_text">VolumeLockr 由 Jonathan Klee 开发 (:</string>
+    <string name="dialog_policy_access_title">您必须允许 VolumeLockr 访问勿扰模式</string>
+    <string name="dialog_allow">允许</string>
+
+    <string name="aboutLibraries_description_showIcon">true</string>
+    <string name="aboutLibraries_description_showVersion">true</string>
+
+    <!-- 设置 -->
+    <string name="limiting_header">音量限制</string>
+    <string name="allow_lower">允许低于限制的音量</string>
+    <string name="allow_lower_message">更改将在您重启设备后生效</string>
+    <string name="password_header">密码</string>
+    <string name="password_protected">启用密码保护</string>
+    <string name="change_password">更改密码</string>
+    <string name="enter_password">请输入密码</string>
+</resources>

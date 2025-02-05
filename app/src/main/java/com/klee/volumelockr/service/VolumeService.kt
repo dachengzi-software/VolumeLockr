@@ -105,8 +105,9 @@ class VolumeService : Service() {
 
     @Synchronized
     fun startLocking() {
+        stopLocking()
         mTimer = Timer()
-        mTimer?.scheduleAtFixedRate(
+        mTimer?.schedule(
             object : TimerTask() {
                 override fun run() {
                     checkVolumes()
@@ -254,8 +255,8 @@ class VolumeService : Service() {
 
         createNotificationChannel()
         val notification = Notification.Builder(this, NOTIFICATION_CHANNEL_ID)
-            .setContentTitle(NOTIFICATION_TITLE)
-            .setContentText(NOTIFICATION_DESCRIPTION)
+            .setContentTitle(resources.getString(R.string.app_name))
+            .setContentText(resources.getString(R.string.notification_description))
             .setSmallIcon(R.drawable.ic_volumelockr_foreground)
             .setContentIntent(createNotificationContentIntent())
             .build()
